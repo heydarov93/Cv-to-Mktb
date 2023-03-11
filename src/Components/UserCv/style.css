@@ -1,0 +1,26 @@
+.UserCv {
+  max-width: 550px;
+  margin: 32px auto;
+  padding: 24px;
+  background-color: antiquewhite;
+}
+
+.UserCv h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.UserCv ul {
+  list-style: none;
+  padding: 0;
+}
+
+.UserCv li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+}
+
+.UserCv li:not(:last-child) {
+  margin-bottom: 16px;
+}
